@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Secure Web Coding</title>
 </head>
 <body>
@@ -12,15 +13,17 @@
     <p>It's a work in progress</p>
 
     <h3>links</h3>
-    <p>If making links that open in a new tab with target=_blank use 
-    </p><code>rel=”noopener noreferrer”</code> too to avoid reverse tabnabbing</a></p>
+    <p>If making links that open in a new tab with "target=_blank" use 
+    </p><code>rel="noopener noreferrer"</code> too to avoid reverse tabnabbing</a></p>
 
     <p>Bad example</p>
-    <code>a href="https://randomsite.com" target="_blank" rel="noopener noreferrer">Text here<a></code>
+    <code>a href="https://randomsite.com" target="_blank"<a></code>
 
     <p>Good example</p>
-    <code>a href="https://randomsite.com" target="_blank">Text here<a></a></code>
+    <code>a href="https://randomsite.com" target="_blank" rel="noopener noreferrer"<a></a></code>
     <br>
-    <a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/HTML5_Security_Cheat_Sheet.md" target="_blank" rel="noopener noreferrer">Check out the OWASP github cheatsheet</a>
+
+    <p>To check out more about reverse tabnabbing:</p>
+    <a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/HTML5_Security_Cheat_Sheet.md" target="_blank" rel="noopener noreferrer">OWASP github cheatsheet</a>
 </body>
 </html>
