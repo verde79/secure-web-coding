@@ -1,15 +1,25 @@
 body{
-    background-color: black
-    
+    background-color: black  
 }
 
 h1,p,a{
     color: darkcyan;
 }
+
 a{
     text-decoration:none;
 }
 
+.codeblock{
+    background-color: slategrey;
+    margin:20px;
+    padding:10px;
+    text-align: center;
+}
+
+.codeblock>p{
+    color:black;
+}
 h1{
     text-align: center
 }
